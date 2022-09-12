@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="practice1c.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" method="get">
+            <h1 class="main_heading">Contact Us<h1>
+                <hr>
+           <h5>For admission contact us</h5>
+           <p>Fields required are followed by *</p>
+           <p>
+               Name : *
+               <input type="text" name="name" required placeholder="Fill your name">
+           </p>
+           <p>
+               <fieldset>
+                   <legend>*Gender</legend>
+                   Male<input type="radio" name="Gender" id="male" required>
+                   Female<input type="radio" name="Gender" id="female" required>
+               </fieldset>
+           </p>
+           <p>
+               Address : *
+               <textarea name="Address" id="Address" cols="100" rows="8" placeholder="Fill your address here"></textarea>
+           </p>
+           <p>
+               City : *
+               <input type="text" name="City" id="Lucknow" required placeholder="Delhi">
+           </p>
+           <p>
+               Pincode : *
+               <input type="number" name="pincode" id="pincode" required placeholder="110011">
+           </p>
+           <p>
+               Contact Number : *
+               <input type="number" name="mobile number" id="mobile number" required placeholder="9950240306">
+           </p>
+           <p>
+               Age : *
+               <input type="number" name="age" id="age" required placeholder="18">
+           </p>
+           <p>
+               Category : *
+               <select name="Category" id="Category" required>
+                   <option value="">--Category--</option>
+                   <option value="General">General</option>
+                   <option value="General Ews">General Ews</option>
+                   <option value="OBC">OBC</option>
+                   <option value="SC">SC</option>
+                   <option value="ST">ST</option>
+               </select>
+           </p>
+           <p>
+               Program : *
+               <select name="Program" id="Program" required>
+                   <option value="">--Select Program--</option>
+                   <option value="Computer Science and Engineering">Computer Science and Engineering</option>
+                   <option value="Information Tecgnology">Information Tecgnology</option>
+                   <option value="Electronics and Communication Engineering">Electronics and Communication Engineering</option>
+                   <option value="Electrical Engineering">Electrical Engineering</option>
+                   <option value="Chemical Engineering">Chemical Engineering</option>
+                   <option value="Mechanical Engineering">Mechanical Engineering</option>
+                   <option value="Civil Engineering">Civil Engineering</option>
+               </select>
+           </p>
+           <p>
+               Submit Otp : *
+               <input type="password" name="password" id="password" required placeholder="123456"> 
+           </p>
+           <p>
+               Date of Birth : *
+               <input type="date" name="dob_date" id="dob_date" required>
+           </p>
+           <input type="submit" value="Submit">
+        </form>
+    </div>  
+</body>
+</html>
